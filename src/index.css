@@ -1,0 +1,8 @@
+@import url('reset.css');
+
+html,body, #root {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}

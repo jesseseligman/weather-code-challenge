@@ -1,0 +1,116 @@
+.app {
+  position: relative;
+  height: 100%;
+  background-image: linear-gradient(#367CD6, #183968);
+}
+
+.cloud1 {
+  position: absolute;
+  top: 42%;
+  left: calc(50% - 350px);
+}
+
+.cloud2 {
+  position: absolute;
+  top: 35%;
+  right: calc(50% - 350px);
+}
+
+.modalContainer {
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 250px);
+  text-align: center;
+  opacity: 0.8;
+  background: #4A90E2;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #444;
+  margin: 0 auto;
+  padding: 4px 0;
+  width: 90%;
+}
+
+.input {
+  color: #efefef;
+  font-size: 18px;
+  border: 0;
+  background: transparent;
+  width: 85%;
+  z-index: 2
+}
+
+.input::placeholder {
+  color: #d8d8d8;
+}
+
+.fiveDayContainer {
+  color: #a4a3a3;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  height: 120px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.upcomingWeather {
+  margin: 5px 0;
+  padding: 5px;
+  border-right: 1px solid #d8d8d8;
+}
+
+.currentWeather {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+  color: #fff;
+}
+.currentTemp {
+  font-size: 200px;
+}
+
+.currentConditions {
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.farenheit {
+  font-size: 40px;
+  text-align: left;
+}
+
+.description {
+  font-size: 24px;
+  margin-top: 20px;
+  width: 120px;
+}
+
+.humidity {
+  margin-top: 10px;
+}
+
+.maxTemp {
+  color: #183968;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -8px;
+}
+
+.minTemp {
+  margin-top: 4px;
+}
+
+i {
+  color: #444;
+}
